@@ -59,20 +59,7 @@ pages:
 
 ## VPS
 
-和部署所有静态网站一样，只需将服务器的访问根目录设定为 `index.html` 文件。
 
-例如 nginx 的配置
-
-```nginx
-server {
-  listen 80;
-  server_name  your.domain.com;
-
-  location / {
-    alias /path/to/dir/of/docs/;
-    index index.html;
-  }
-}
 ```
 
 ## Netlify
